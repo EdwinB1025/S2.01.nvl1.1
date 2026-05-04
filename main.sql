@@ -1,0 +1,10 @@
+USE optical_shop;
+SOURCE db_and_schema/create_db.sql;
+SOURCE db_and_schema/create_schema.sql;
+SOURCE tables/1_create_suppliers.sql;
+SOURCE tables/2_create_buying_policy.sql;
+SOURCE tables/3_create_glasses.sql;
+SOURCE tables/4_create_prescription.sql:
+SOURCE tables/5_create_clients.sql;
+SOURCE tables/6_create_employees.sql;
+SOURCE tables/7_create_sales.sql;
