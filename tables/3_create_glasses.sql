@@ -5,6 +5,12 @@ CREATE TABLE IF NOT EXISTS glasses(
     color VARCHAR(20),
     price SMALLINT NOT NULL,
     PRIMARY KEY(glasses_id)
+    INDEX fk_brand_name_policy_idx (brand_name ASC) VISIBLE,
+    CONSTRAINT fk_brand_name_policy
+        FOREIGN KEY (brand_name)
+        REFERENCES buying_policy (brand_name)
+        ON DELETE RESTRICT
+        ON UPDATE CASCADE)
     );
 
 INSERT into glasses(brand_name, frame, color, price)

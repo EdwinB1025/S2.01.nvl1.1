@@ -54,3 +54,8 @@ CREATE TABLE IF NOT EXISTS prescription(
         ROW(15, 'right', +0.75, NULL,  0,   +1.50),
         ROW(15, 'right', +0.65, NULL,  0,   +1.50);
 
+    INSERT INTO prescription(glasses_id, lense_side, sphere, cilinder, axis, addition)
+    VALUES
+        ROW(15, 'left',  +0.50, NULL,  0,   +1.50),
+        ROW(15, 'right', +0.65, NULL,  0,   +1.50);
+

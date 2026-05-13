@@ -35,5 +35,5 @@
     Your MySQL connection id is 48
     Server version: 8.0.46 MySQL Community Server - GPL
     ```
-5. Run the script: ```sql SOURCE main.sql; ```
+5. Run the script: ```SOURCE main.sql; ```
 6. To exist MySQL Server: `EXIT;`.
